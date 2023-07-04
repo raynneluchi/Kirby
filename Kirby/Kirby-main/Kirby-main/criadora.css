@@ -1,1 +1,75 @@
+@font-face {
+    font-family: 'kirby';
+    src: url('fontes/CrystalUniverse-Oblique.ttf') format('truetype');
+}
+
+#sobre {
+    color: #be7fdd;
+    font-family: kirby;
+    margin-top: 90px;
+    margin-bottom: 9
+    0px;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#container {
+    width: calc(90% - 20px);
+    left: 5%;
+    padding: 10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: relative;
+    background-color: #6e0d86e1;
+    border: 2px solid #be7fdd;
+    border-radius: 5px;
+}
+
+.amigos {
+    width: 90%;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 150px !important;
+    height: 150px !important;
+    background: rgb(56, 56, 56);
+    border-radius: 300px;
+    position: relative;
+    margin-right: 20px;
+    background-size: 100%;
+    border: 3px dotted #D3A7E9;
+}
+
+.desc_container {
+    width: calc(100% - 300px);
+}
+
+.name {
+    font-size: 30px;
+    font-family: kirby;
+    color: #be7fdd;
+    text-shadow: 0px 0px 20px #0000003b;
+}
+
+.description {
+    color: black;
+    padding: 30px;
+    font-family: 'Italianno', cursive;
+    font-family: 'Vesper Libre', serif;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    max-height: 130px;
+    font-size: 20px;
+}
 
